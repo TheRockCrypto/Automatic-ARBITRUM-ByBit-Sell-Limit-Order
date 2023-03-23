@@ -12,7 +12,7 @@ API_SECRET = b"YOUR_API_SECRET"
 symbol = "ARBUSDT"
 side = "Sell"
 price = 2.00
-quantity = 10
+quantity = 625
 
 # Set the API endpoint and parameters
 endpoint = "https://api.bybit.com/v2/private/order/create"
