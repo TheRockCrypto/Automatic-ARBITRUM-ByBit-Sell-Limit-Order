@@ -16,7 +16,7 @@ exchange = getattr(ccxt, "bybit")({
 order_placed = False
 while not order_placed:
     try:
-        order = exchange.create_order("ARB/USDT", "limit", "sell", "625", 2) #Sell 625 ARB at $2
+        order = exchange.create_order("ARB/USDT", "limit", "sell", "625", 2) #Place Sell order 625 ARB at $2
         order_placed = True
     except ccxt.BaseError as error:
         print(f"An error occurred while placing the order: {error}")
